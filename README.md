@@ -42,23 +42,3 @@ This project aims to automate the end-to-end sales outreach process using Python
     🗂  Leads: data/SalesLeads_<timestamp>.xlsx
     💌 Email: data/preview_test_email.html
     📊 Analytics: Flask server logs open events
-
-
-📁 **Project Structure**
-Project2/
-│
-├── automation/
-│   ├── Task1_2.py                     # Scrapes data and exports to Excel
-│   ├── Task3_email_temp_personalizer.py  # Personalizes HTML email templates
-│   ├── Task_4_email_sender.py        # Automates email campaigns with batching
-│   ├── create_tracking_pixel.py      # Creates tracking pixel image
-│   ├── email_tracker_server.py       # Flask server for tracking email opens
-│   └── transparent.gif               # Tracking pixel image
-│
-├── data/
-│   ├── SalesLeads_YYYY-MM-DD.xlsx    # Generated Excel file with leads
-│   ├── SalesLeads_YYYY-MM-DD.csv     # CSV version of scraped leads
-│   └── preview_test_email.html       # Preview of a sample personalized email
-│
-└── template/
-    └── email_template.html           # Base HTML template with dynamic tags
