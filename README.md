@@ -3,6 +3,7 @@
 This project aims to automate the end-to-end sales outreach process using Python and basic AI/ML concepts. It includes data scraping, email campaign automation, lead tracking, and analytics reporting.
 
 ✅ **Tasks Breakdown**
+
   📌 Task 1 & 2: Lead Scraping & Excel Export
         - Scrapes leads from search results (Google, LinkedIn, etc.) based on Ideal Customer 
         - Profile (ICP).   
